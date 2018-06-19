@@ -1,0 +1,100 @@
+    body{
+        width:100%;
+        height:100%;
+        padding:0px;
+        margin:0px;
+    }
+    .topBar{
+        position:absolute;
+        width:100%;
+        height:50px;
+        top:30px;
+        background-color:white;
+        padding:0px;
+        margin:0px;
+        font-size : 25px;
+    	text-align:center;
+    }
+    
+    .selectName{
+        position:absolute;
+        left:10%;
+        width:20%;
+        font-size:20px;
+    }
+    #coperName{
+        top:80px;
+    }
+    #userPosition{
+        top:120px;
+    }
+    #userName{
+        top:160px;
+    }
+    #userPhone{
+        top:200px;
+    }
+    #userEmail{
+        top:240px;
+    }
+    #userURL{
+        top:280px;
+    }
+    #userQuestion{
+        top:340px;
+    }
+    
+    .select{
+        position:absolute;
+        height:20px;
+        width:40%;
+        right:20%;
+        color:#767677;
+        border: 2px groove #e1716f;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+    #id{
+        top:80px;
+    }
+    #position{
+        top:120px;
+    }
+    #name{
+        top:160px;
+    }
+    #telephoneNumber{
+        top:200px;
+    }
+    
+    #email{
+        top:240px;
+    }
+    #url{
+        top:280px;
+    }
+    #textArea{
+        top:360px;
+        left:15%;
+        height:15%;
+        width:70%;
+        background-color:white;
+        border: 2px groove #e1716f;
+        color:black;
+    }
+    
+    #registerButton {
+        position:absolute;
+    	width:40%; height:40px; 
+    	top:500px;
+    	left:30%;
+    	border: 1px groove #ffffff;
+    	border-radius: 5px;
+    	background-color:#e1716f;
+    	color:#f2f2f2;
+    	font: normal bold 17px Arial;
+    	text-align:center;
+    	
+
+    }

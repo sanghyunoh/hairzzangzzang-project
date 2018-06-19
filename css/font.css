@@ -1,0 +1,24 @@
+@import url(//api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb); 
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+@font-face{
+    font-family : 'test1';
+    src:url(/css/fonts/NanumGothic.woff) format('woff');
+}
+@font-face{
+    font-family : 'test2';
+    src:url(/css/fonts/whitecat.woff) format('woff');
+}
+@font-face{
+    font-family : 'test3';
+    src:url(/css/fonts/4.woff) format('woff');
+}
+body, table, div, p, textarea, option, select {
+    font-family: 'test2';
+    color: #767677;
+}
+button {
+    font-family: 'test2';
+    font-size : 20px;
+}

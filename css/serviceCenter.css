@@ -1,0 +1,76 @@
+    body{
+        width:100%;
+        height:100%; 
+        padding:0px;
+        margin:0px;
+    }
+    .hiddenData{
+        width:0px;
+        height:0px;
+    }
+    .topBar{
+        position:absolute;
+        width:100%;
+        height:50px;
+        top:30px;
+        background-color:white;
+        padding:0px;
+        margin:0px;
+        text-align:center;
+        font-size : 25px;
+    }
+    .subtopbar {
+        position:absolute;
+        width:100%;
+        height:50px;
+        top:60px;
+        background-color:white;
+        padding:0px;
+        margin:0px;
+        text-align:center;
+        font-size : 15px;
+    }
+    #requestName{
+        width:100%;
+        text-align:center;
+        font: 20px;
+        margin:0px;
+        padding-top:20%;
+    }
+    .select{
+        position:absolute;
+        height:40px;
+        width:40%;
+        left:40%;
+        color : #767677;
+        border: 2px groove #e1716f;
+        border-radius: 5px;
+        background-color: white;
+        
+    }
+    
+    #textArea{
+        top:100px;
+        left:15%;
+        height:350px;
+        width:70%;
+        background-color:white;
+        border: 2px groove #e1716f;
+        color:black;
+        font-size:20px;
+    }
+    
+    #reserveButton {
+        position:absolute;
+    	width:30%; height:40px; 
+    	top:500px;
+    	left:35%;
+    	border: 1px solid #ffffff;
+    	border-radius: 5px;
+    	background-color:#e1716f;
+    	color:#f2f2f2;
+    	font: normal groove 17px Arial;
+    	text-align:center;
+    	
+
+    }

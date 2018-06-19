@@ -1,0 +1,148 @@
+    html, body { 
+        height: 100%; 
+    }
+    .cantsee{
+        display: none;
+    }
+    body {
+        margin: 0 auto;
+    }
+    
+    #wrapper {
+        margin-top:50px;
+        padding-bottom:10%;
+    }
+    .selectSectionImg {
+        margin:4% auto;
+        vertical-align:middle;
+        text-align:center;
+    }
+    .selectSectionImg img{
+        width:15%;
+        height: auto;
+        max-height:61px;
+        max-width:60px;
+        margin-right:3%;
+        margin-left:3%;
+    }
+
+    table {
+        margin:auto;
+        width:80%;
+        height:auto;
+        border-top: 1px solid #ddd;
+    }
+    #info td{
+        padding-top:10px !important;
+        font-size:20px;
+        color : #767677;
+    }
+    #menu td{
+        padding:3px 0px !important;
+        color : #767677;
+        font-size:20px;
+    }
+    #review td{
+        padding-top:10px !important;
+        color : #767677;
+        font-size:20px;
+    }
+     
+    #portfolio td{
+        padding:0px;
+        margin:0px;
+        width:33.3%;
+        overflow: hidden;
+    }
+/*vw는 viewport width란다*/
+    #portfolioPhoto {
+        height: 33.3vw;
+        width:33.3vw;
+    }
+    
+    .reserveButton {
+        position:fixed;
+        bottom:0;
+        height:7%;
+    	width:100%;
+    	background-color:#e1716f;
+    	display:inline-block;
+    	color:#f2f2f2;
+    	font-size:20px;
+    	font-style:normal;
+    	line-height:200%;
+    	text-decoration:none;
+    	text-align:center;
+    }
+    
+    .star{
+        width:20px;
+    }
+    
+    #review button{
+        background-color:#e1716f;
+    	display:inline-block;
+    	color:#f2f2f2;
+    	font-style:normal;
+    	text-align:center;
+    	position:absolute;
+    	right:5px;
+    	width:55px;
+    }
+    
+    /*
+    이미지 슬라이더 부분
+    */
+    
+    /* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+        */
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 12px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        /* jssor slider arrow navigator skin 02 css */
+        /*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        */
+        .jssora02l, .jssora02r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('img/a02.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora02l { background-position: -3px -33px; }
+        .jssora02r { background-position: -63px -33px; }
+        .jssora02l:hover { background-position: -123px -33px; }
+        .jssora02r:hover { background-position: -183px -33px; }
+        .jssora02l.jssora02ldn { background-position: -3px -33px; }
+        .jssora02r.jssora02rdn { background-position: -63px -33px; }

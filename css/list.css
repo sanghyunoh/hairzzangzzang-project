@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    height:auto;
+    padding:0;
+    margin:0 auto !important;
+}
+
+.wrapper {
+    width:100%;
+    margin-top:50px;
+}
+
+.wrap {
+    width:100%;
+    height:55vw;
+    
+}
+
+.shopImg{
+    width:100%;
+    height:100%;
+}
+.shopName{
+    position: relative;
+    bottom: 50px;
+    left:20px;
+    width:60%;
+    color:white;
+    letter-spacing: 3px;
+    padding:0px;
+    margin:0px;
+    z-index:100;
+    font-size:24px;
+}
+
+.avgScore{
+    position: relative;
+    right:10px;
+    bottom:70px;
+    
+    color:white;
+    letter-spacing: 1px;
+    padding:0px;
+    margin:0px;
+    z-index:50;
+    font-size:18px;
+    text-decoration:none;
+    text-align:right;
+}
+
+.shopLocation{
+    position: relative;
+    left:20px;
+    bottom:50px;
+    width:60%;
+    color:white;
+    letter-spacing: 1px;
+    padding:0px;
+    margin:0px;
+    z-index:50;
+    font-size:18px;
+    text-decoration:none;
+}
